@@ -1,1 +1,1 @@
-# iOS-SF-Symbol-Action-Icon-Template
+# SF-Symbol-Action-Icon-Template
