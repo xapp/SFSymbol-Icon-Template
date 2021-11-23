@@ -1,1 +1,1 @@
-# SFSymbol-Action-Icon-Template
+# SFSymbol-Icon-Template
