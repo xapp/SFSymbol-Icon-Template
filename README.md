@@ -21,6 +21,19 @@ While iOS 15 allows to use any custom SF Symbols, this template produces a perfe
 - SVG Link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
 - Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\_(ツ)_/¯.
 
+
+### If you like this Template
+Download X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
+
+Follow:
+- https://github.com/xapp-dev
+- https://twitter.com/xapp_app
+- https://www.youtube.com/xapp_app
+- https://reddit.com/r/xapp
+- https://www.facebook.com/xapp.page
+- https://instagram.com/xapp_app
+
+
 ### How to use Template:
 1. Open template in Sketch;
 2. Replace "Icon" with your icon;
