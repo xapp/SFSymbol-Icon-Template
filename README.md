@@ -10,9 +10,9 @@ While SF Symbols are supported by iOS, this is a special template which produces
 While iOS 15 allows to use any custom SF Symbols, this template produces a perfect 32pt icon. Typically is limited to 24pt.
 
 ### Supports:
-* iOS Action Extension
-* Quick Action (UIApplicationShortcutIcon)
-* TabBar icon (UITabBarItem)
+* iOS Action Extension;
+* Quick Action (UIApplicationShortcutIcon);
+* TabBar icon (UITabBarItem).
 
 
 ### Template
@@ -22,20 +22,20 @@ While iOS 15 allows to use any custom SF Symbols, this template produces a perfe
 - Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\_(ツ)_/¯.
 
 ### How to use Template:
-1. Open template in Sketch.
-2. Replace "Icon" with your icon.
+1. Open template in Sketch;
+2. Replace "Icon" with your icon;
 3. Export icon in SVG format.
 
 
 ### How to add icon to Xcode
-1. In Xcode, select Assets file > + > "Symbol Image Set" > add exported icon.
-2. Press "+" > "Symbol Image Set"
+1. In Xcode, select Assets file;
+2. Press "+" > "Symbol Image Set";
 3. Add exported icon.
 
 
 
 ### Setup: iOS Action Extension
-Add properties to Info.plist.
+Add properties to Info.plist of Action Extension:
 
 File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/ActionExtension_Info.plist
 <img width="716" alt="ActionExtension_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162528-8409e516-bbf5-4b08-83d3-645d8ddcdcb3.png">
@@ -61,7 +61,7 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Qu
 
 
 ### Setup: TabBar Icon
-A) Set icon in Storyboard
+A) Set icon in Storyboard;
 
 B) Set image property of tabBarItem:
 ```
