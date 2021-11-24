@@ -3,6 +3,17 @@
 ![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
 
 
+
+
+
+iOS 15 adds support for using custom SF Symbols to set iOS Action Extension icon.
+
+While custom SF Symbols work out of the box, icon is limited to 24pt.
+
+This SF Symbol template 
+
+While SF Symbols 
+
 iOS 15 adds support for using custom SF Symbols for setting custom SF Symbol icon for 
 
 While SF Symbols are supported by iOS, this is a special template which produces 32pt 1:1 pixel perfect SF 
@@ -10,9 +21,13 @@ While SF Symbols are supported by iOS, this is a special template which produces
 While iOS 15 allows to use any custom SF Symbols, this template produces a perfect 32pt icon. Typically is limited to 24pt.
 
 ### Supports:
-* iOS Action Extension;
+* iOS Action Extension (iOS 15 only);
 * Quick Action (UIApplicationShortcutIcon);
 * TabBar icon (UITabBarItem).
+
+
+### Template was created during X.app development
+App Store - X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
 
 
 ### Template
@@ -20,18 +35,6 @@ While iOS 15 allows to use any custom SF Symbols, this template produces a perfe
 - Sketch Workspace Link: https://www.sketch.com/s/0806fd05-6f85-4ade-bb4a-d4171dbf6893
 - SVG Link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
 - Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
-
-
-### If you like this Template
-Download X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
-
-Follow:
-- https://github.com/xapp-dev
-- https://twitter.com/xapp_app
-- https://www.youtube.com/xapp_app
-- https://reddit.com/r/xapp
-- https://www.facebook.com/xapp.page
-- https://instagram.com/xapp_app
 
 
 ### How to use Template:
