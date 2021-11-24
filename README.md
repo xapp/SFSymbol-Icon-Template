@@ -15,17 +15,17 @@ While any custom SF Symbol is supported by iOS 15, without special "Guides", ico
 ## Template
 - Sketch File: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/Sketch/SFSymbol-Icon.sketch
 - Sketch Workspace Link: https://www.sketch.com/s/0806fd05-6f85-4ade-bb4a-d4171dbf6893
-- SVG Link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
-- Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
+- SVG: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
+- Figma is not supported. Template requires a fully transparent element to hold a 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
 
 
-### How to use Template:
+## How to use Template:
 1. Open template in Sketch;
 2. Replace "Icon" with your icon;
 3. Export icon in SVG format.
 
 
-### How to add icon to Xcode
+## How to add icon to Xcode
 1. In Xcode, select Assets file;
 2. Press "+" > "Symbol Image Set";
 3. Add exported icon.
@@ -65,3 +65,7 @@ UITabBarItem(title: "Dynamic",
              image: UIImage(imageLiteralResourceName: "symbol.icon"),
              selectedImage: UIImage(imageLiteralResourceName: "symbol.icon"))
 ```
+
+
+# 
+Download X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
