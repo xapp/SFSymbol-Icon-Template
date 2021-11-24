@@ -8,7 +8,7 @@ SFSymbol Icon Template produces a 32pt icon, which can be used for:
 - Quick Action (UIApplicationShortcutIcon);
 - TabBar (UITabBarItem).
 
-While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt and might be drawn in low
+While any custom SF Symbol is supported by iOS 15, this template contains special "Guides", which make  icon size is limited to 24pt and might be drawn in low
 
 
 
