@@ -2,13 +2,13 @@
 
 ![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
 
-SFSymbol Icon Template produces a pixel perfect 32pt icon, which can be used for: 
+SFSymbol Icon Template produces a 32pt icon, which can be used for: 
 
 - iOS Action Extension (iOS 15 only);
 - Quick Action (UIApplicationShortcutIcon);
 - TabBar (UITabBarItem).
 
-While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt and might be drawn 
+While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt and might be drawn in low
 
 
 
@@ -41,7 +41,7 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Ac
 
 
 ## Setup: Quick Action Shortcut
-A) Dynamically:
+a) Dynamically:
 ```
 UIApplicationShortcutItem(type: Action.dynamicIcon.rawValue,
                           localizedTitle: "SFSymbol Icon (Dynamic)",
@@ -50,16 +50,16 @@ UIApplicationShortcutItem(type: Action.dynamicIcon.rawValue,
                           userInfo: nil)
 ```
 
-B) Statically, add properties to Info.plist, note: use "UIApplicationShortcutItemIconFile" key instead of "UIApplicationShortcutItemIconSymbolName"
+b) Statically, add properties to Info.plist, note: use "UIApplicationShortcutItemIconFile" key instead of "UIApplicationShortcutItemIconSymbolName"
 
 File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/QuickAction_ShortcutItem_Info.plist
 <img width="716" alt="QuickAction_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162523-45a6a850-dbe0-44f8-a8f6-eed35ea1a939.png">
 
 
 ## Setup: TabBar Icon
-A) Set icon in Storyboard;
+a) Set icon in Storyboard;
 
-B) Set image property of tabBarItem:
+b) Set image property of tabBarItem:
 ```
 UITabBarItem(title: "Dynamic",
              image: UIImage(imageLiteralResourceName: "symbol.icon"),
