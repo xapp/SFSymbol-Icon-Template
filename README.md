@@ -24,7 +24,7 @@ While any custom SF Symbol is supported by iOS 15, this template contains specia
 3. Export icon in SVG format.
 
 
-## How to add icon to Xcode
+## How to add icon to Xcode:
 1. In Xcode, select Assets file;
 2. Press "+" > "Symbol Image Set";
 3. Add exported icon.
@@ -32,7 +32,7 @@ While any custom SF Symbol is supported by iOS 15, this template contains specia
 
 
 ## Setup: iOS Action Extension
-Add properties to Info.plist of Action Extension:
+Add properties to Info.plist of Action Extension.
 
 File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/ActionExtension_Info.plist
 <img width="716" alt="ActionExtension_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162528-8409e516-bbf5-4b08-83d3-645d8ddcdcb3.png">
