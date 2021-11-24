@@ -1,21 +1,11 @@
 # SFSymbol Icon Template
 
 
-Quick Action Shortcut 
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemIconFile</key>
-			<string>symbol.icon</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>SFSymbol Icon (Static)</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>staticIcon</string>
-		</dict>
-	</array>
-</plist>
-```
+### iOS Action Extension (Info.plist)
+File link: https://github.com/xapp/SFSymbol-Icon-Template/InfoPlist/ActionExtension_Info.plist
+<img width="716" alt="ActionExtension_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162528-8409e516-bbf5-4b08-83d3-645d8ddcdcb3.png">
+
+
+### Quick Action Shortcut (Info.plist)
+File link: https://github.com/xapp/SFSymbol-Icon-Template/InfoPlist/QuickAction_ShortcutItem_Info.plist
+<img width="716" alt="QuickAction_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162523-45a6a850-dbe0-44f8-a8f6-eed35ea1a939.png">
