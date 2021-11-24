@@ -5,10 +5,10 @@
 SFSymbol Icon Template produces a 32pt icon, which can be used for: 
 
 - iOS Action Extension (iOS 15 only);
-- Quick Action (UIApplicationShortcutIcon);
-- TabBar (UITabBarItem).
+- Quick Action Shortcut;
+- TabBar.
 
-While any custom SF Symbol is supported by iOS 15, this template contains special "Guides", which make  icon size is limited to 24pt and might be drawn in low
+While any custom SF Symbol is supported by iOS 15, this template contains special "Guides", which make icon draw at 1:1 pixel perfect 32pt. 
 
 
 
@@ -16,7 +16,6 @@ While any custom SF Symbol is supported by iOS 15, this template contains specia
 - Sketch File: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/Sketch/SFSymbol-Icon.sketch
 - Sketch Workspace Link: https://www.sketch.com/s/0806fd05-6f85-4ade-bb4a-d4171dbf6893
 - SVG: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
-- Figma is not supported. Template requires a fully transparent element to hold a 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
 
 
 ## How to use Template:
@@ -43,8 +42,8 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Ac
 ## Setup: Quick Action Shortcut
 a) Dynamically:
 ```
-UIApplicationShortcutItem(type: Action.dynamicIcon.rawValue,
-                          localizedTitle: "SFSymbol Icon (Dynamic)",
+UIApplicationShortcutItem(type: "actionType",
+                          localizedTitle: "Title",
                           localizedSubtitle: nil,
                           icon: UIApplicationShortcutIcon(templateImageName: "symbol.icon"),
                           userInfo: nil)
@@ -67,5 +66,5 @@ UITabBarItem(title: "Dynamic",
 ```
 
 
-# Sponsor
+# Self Sponsor
 Download X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
