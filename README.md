@@ -48,10 +48,10 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Ac
 A) Dynamically:
 ```
 UIApplicationShortcutItem(type: Action.dynamicIcon.rawValue,
-                                  localizedTitle: "SFSymbol Icon (Dynamic)",
-                                  localizedSubtitle: nil,
-                                  icon: UIApplicationShortcutIcon(templateImageName: "symbol.icon"),
-                                  userInfo: nil)
+                          localizedTitle: "SFSymbol Icon (Dynamic)",
+                          localizedSubtitle: nil,
+                          icon: UIApplicationShortcutIcon(templateImageName: "symbol.icon"),
+                          userInfo: nil)
 ```
 
 B) Statically, add properties to Info.plist, note: use "UIApplicationShortcutItemIconFile" key instead of "UIApplicationShortcutItemIconSymbolName"
@@ -66,6 +66,6 @@ A) Set icon in Storyboard;
 B) Set image property of tabBarItem:
 ```
 UITabBarItem(title: "Dynamic",
-                                      image: UIImage(imageLiteralResourceName: "symbol.icon"),
-                                      selectedImage: UIImage(imageLiteralResourceName: "symbol.icon"))
+             image: UIImage(imageLiteralResourceName: "symbol.icon"),
+             selectedImage: UIImage(imageLiteralResourceName: "symbol.icon"))
 ```
