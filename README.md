@@ -36,7 +36,13 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Ac
 
 
 ### Quick Action Shortcut (Info.plist)
-Note: Use "UIApplicationShortcutItemIconFile" key.
+- use "UIApplicationShortcutItemIconFile" key instead of "UIApplicationShortcutItemIconSymbolName"
+- UIApplicationShortcutIcon(templateImageName: "symbol.icon")
 
 File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/QuickAction_ShortcutItem_Info.plist
 <img width="716" alt="QuickAction_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162523-45a6a850-dbe0-44f8-a8f6-eed35ea1a939.png">
+
+
+### TabBar Icon
+- Set icon in Storyboard
+- Set image property of tabBarItem
