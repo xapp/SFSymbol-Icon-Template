@@ -22,9 +22,13 @@ Supports:
 
 
 
+
+
 ### iOS Action Extension (Info.plist)
 File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/ActionExtension_Info.plist
 <img width="716" alt="ActionExtension_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162528-8409e516-bbf5-4b08-83d3-645d8ddcdcb3.png">
+
+
 
 
 
