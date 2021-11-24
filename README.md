@@ -1,5 +1,8 @@
 # SFSymbol Icon Template for iOS 15
 
+![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
+
+
 iOS 15 adds support for using custom SF Symbols for setting custom SF Symbol icon for 
 
 While SF Symbols are supported by iOS, this is a special template which produces 32pt 1:1 pixel perfect SF 
