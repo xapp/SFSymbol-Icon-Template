@@ -2,32 +2,19 @@
 
 ![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
 
+SFSymbol Icon Template produces a pixel perfect 32pt icon, which can be used for: 
 
-
-
-
-iOS 15 adds support for using custom SF Symbols to set iOS Action Extension icon.
-
-While custom SF Symbols work out of the box, icon is limited to 24pt.
-
-This SF Symbol template 
-
-While SF Symbols 
-
-iOS 15 adds support for using custom SF Symbols for setting custom SF Symbol icon for 
-
-While SF Symbols are supported by iOS, this is a special template which produces 32pt 1:1 pixel perfect SF 
-
-While iOS 15 allows to use any custom SF Symbols, this template produces a perfect 32pt icon. Typically is limited to 24pt.
-
-### Supports:
 * iOS Action Extension (iOS 15 only);
 * Quick Action (UIApplicationShortcutIcon);
-* TabBar icon (UITabBarItem).
+* TabBar (UITabBarItem).
+
+While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt or might be unclear.
+
 
 
 ### Template was created during X.app development
 App Store - X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
+
 
 
 ### Template
@@ -55,8 +42,6 @@ Add properties to Info.plist of Action Extension:
 
 File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/ActionExtension_Info.plist
 <img width="716" alt="ActionExtension_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162528-8409e516-bbf5-4b08-83d3-645d8ddcdcb3.png">
-
-
 
 
 
