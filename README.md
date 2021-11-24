@@ -1,4 +1,4 @@
-# SFSymbol Icon Template for iOS 15
+# SFSymbol Icon Template (iOS 15)
 
 ![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
 
