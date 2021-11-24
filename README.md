@@ -66,5 +66,5 @@ UITabBarItem(title: "Dynamic",
 ```
 
 
-# Self Sponsor
+# Self Promo
 Download X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
