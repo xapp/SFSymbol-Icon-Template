@@ -2,29 +2,29 @@
 
 ![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
 
-SFSymbol Icon Template produces a pixel perfect 32pt icon, which can be used for: 
+SFSymbol Icon Template produces a 32pt icon, which can be used for: 
 
 * iOS Action Extension (iOS 15 only);
 * Quick Action (UIApplicationShortcutIcon);
 * TabBar (UITabBarItem).
 
-While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt or might be unclear.
+While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt or might be displayed .
 
 
 
-### Template was created during X.app development
+## Template was created during X.app development
 App Store - X.app: https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8
 
 
 
-### Template
+## Template
 - Sketch File: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/Sketch/SFSymbol-Icon.sketch
 - Sketch Workspace Link: https://www.sketch.com/s/0806fd05-6f85-4ade-bb4a-d4171dbf6893
 - SVG Link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
 - Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
 
 
-### How to use Template:
+## How to use Template:
 1. Open template in Sketch;
 2. Replace "Icon" with your icon;
 3. Export icon in SVG format.
