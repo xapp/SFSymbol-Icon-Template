@@ -32,11 +32,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func performAction(for shortcutItem: UIApplicationShortcutItem) {
         
-        switch SFSymbol_Icon.Action(rawValue: shortcutItem.type)! {
+        switch SFSymbol_Icon.ShortcutAction(rawValue: shortcutItem.type)! {
         case .staticIcon: TabBarController.selectedIndex = 0
         case .dynamicIcon: TabBarController.selectedIndex = 1
         }
     }
 }
-
 

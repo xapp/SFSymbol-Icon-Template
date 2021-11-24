@@ -1,6 +1,6 @@
 import UIKit
 
-class SFSymbolIconController: UIViewController {
+class DynamicIconController: UIViewController {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)

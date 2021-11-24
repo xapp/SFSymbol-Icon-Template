@@ -7,38 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E626DB61274DDB1C0053CFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E687EC60274DD09F002552D3 /* Assets.xcassets */; };
-		E687EC58274DD09E002552D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687EC57274DD09E002552D3 /* AppDelegate.swift */; };
-		E687EC5A274DD09E002552D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687EC59274DD09E002552D3 /* SceneDelegate.swift */; };
-		E687EC5C274DD09E002552D3 /* SFSymbolIconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687EC5B274DD09E002552D3 /* SFSymbolIconController.swift */; };
-		E687EC5F274DD09E002552D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E687EC5D274DD09E002552D3 /* Main.storyboard */; };
-		E687EC61274DD09F002552D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E687EC60274DD09F002552D3 /* Assets.xcassets */; };
-		E687EC64274DD09F002552D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E687EC62274DD09F002552D3 /* LaunchScreen.storyboard */; };
-		E687EC77274DD0BB002552D3 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687EC76274DD0BB002552D3 /* ActionViewController.swift */; };
-		E687EC7A274DD0BB002552D3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E687EC78274DD0BB002552D3 /* MainInterface.storyboard */; };
-		E687EC7E274DD0BB002552D3 /* Action Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E687EC6F274DD0BB002552D3 /* Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E687EC84274DD0E1002552D3 /* SFSymbol_Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687EC83274DD0E1002552D3 /* SFSymbol_Icon.swift */; };
-		E687EC87274DD3BB002552D3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687EC86274DD3BB002552D3 /* TabBarController.swift */; };
+		E626DB72274E01A50053CFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DB71274E01A50053CFC2 /* AppDelegate.swift */; };
+		E626DB74274E01A50053CFC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DB73274E01A50053CFC2 /* SceneDelegate.swift */; };
+		E626DB76274E01A50053CFC2 /* DynamicIconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DB75274E01A50053CFC2 /* DynamicIconController.swift */; };
+		E626DB79274E01A50053CFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E626DB77274E01A50053CFC2 /* Main.storyboard */; };
+		E626DB7B274E01A50053CFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E626DB7A274E01A50053CFC2 /* Assets.xcassets */; };
+		E626DB7E274E01A50053CFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E626DB7C274E01A50053CFC2 /* LaunchScreen.storyboard */; };
+		E626DB91274E02560053CFC2 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DB90274E02560053CFC2 /* ActionViewController.swift */; };
+		E626DB94274E02560053CFC2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E626DB92274E02560053CFC2 /* MainInterface.storyboard */; };
+		E626DB98274E02560053CFC2 /* Action Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E626DB89274E02560053CFC2 /* Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E626DB9D274E02E80053CFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E626DB7A274E01A50053CFC2 /* Assets.xcassets */; };
+		E626DB9F274E05870053CFC2 /* SFSymbol_Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DB9E274E05870053CFC2 /* SFSymbol_Icon.swift */; };
+		E626DBA2274E05D00053CFC2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DBA1274E05D00053CFC2 /* TabBarController.swift */; };
+		E626DBA4274E05E10053CFC2 /* UIViewController_AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DBA3274E05E10053CFC2 /* UIViewController_AppStore.swift */; };
+		E626DBA5274E05EE0053CFC2 /* UIViewController_AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626DBA3274E05E10053CFC2 /* UIViewController_AppStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E687EC7C274DD0BB002552D3 /* PBXContainerItemProxy */ = {
+		E626DB96274E02560053CFC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E687EC4C274DD09E002552D3 /* Project object */;
+			containerPortal = E626DB66274E01A50053CFC2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E687EC6E274DD0BB002552D3;
+			remoteGlobalIDString = E626DB88274E02560053CFC2;
 			remoteInfo = "Action Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E687EC82274DD0BB002552D3 /* Embed App Extensions */ = {
+		E626DB9C274E02560053CFC2 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E687EC7E274DD0BB002552D3 /* Action Extension.appex in Embed App Extensions */,
+				E626DB98274E02560053CFC2 /* Action Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,31 +48,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E687EC54274DD09E002552D3 /* SFSymbol Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFSymbol Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E687EC57274DD09E002552D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E687EC59274DD09E002552D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E687EC5B274DD09E002552D3 /* SFSymbolIconController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolIconController.swift; sourceTree = "<group>"; };
-		E687EC5E274DD09E002552D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E687EC60274DD09F002552D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E687EC63274DD09F002552D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E687EC65274DD09F002552D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E687EC6F274DD0BB002552D3 /* Action Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Action Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E687EC76274DD0BB002552D3 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		E687EC79274DD0BB002552D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		E687EC7B274DD0BB002552D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E687EC83274DD0E1002552D3 /* SFSymbol_Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol_Icon.swift; sourceTree = "<group>"; };
-		E687EC86274DD3BB002552D3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E626DB6E274E01A50053CFC2 /* SFSymbol Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFSymbol Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E626DB71274E01A50053CFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E626DB73274E01A50053CFC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E626DB75274E01A50053CFC2 /* DynamicIconController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIconController.swift; sourceTree = "<group>"; };
+		E626DB78274E01A50053CFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E626DB7A274E01A50053CFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E626DB7D274E01A50053CFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E626DB7F274E01A50053CFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E626DB89274E02560053CFC2 /* Action Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Action Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E626DB90274E02560053CFC2 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		E626DB93274E02560053CFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E626DB95274E02560053CFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E626DB9E274E05870053CFC2 /* SFSymbol_Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol_Icon.swift; sourceTree = "<group>"; };
+		E626DBA1274E05D00053CFC2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E626DBA3274E05E10053CFC2 /* UIViewController_AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_AppStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E687EC51274DD09E002552D3 /* Frameworks */ = {
+		E626DB6B274E01A50053CFC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E687EC6C274DD0BB002552D3 /* Frameworks */ = {
+		E626DB86274E02560053CFC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,54 +83,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E687EC4B274DD09E002552D3 = {
+		E626DB65274E01A50053CFC2 = {
 			isa = PBXGroup;
 			children = (
-				E687EC56274DD09E002552D3 /* SFSymbol Icon */,
-				E687EC73274DD0BB002552D3 /* Action Extension */,
-				E687EC55274DD09E002552D3 /* Products */,
+				E626DB70274E01A50053CFC2 /* SFSymbol Icon */,
+				E626DB8D274E02560053CFC2 /* Action Extension */,
+				E626DB6F274E01A50053CFC2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E687EC55274DD09E002552D3 /* Products */ = {
+		E626DB6F274E01A50053CFC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E687EC54274DD09E002552D3 /* SFSymbol Icon.app */,
-				E687EC6F274DD0BB002552D3 /* Action Extension.appex */,
+				E626DB6E274E01A50053CFC2 /* SFSymbol Icon.app */,
+				E626DB89274E02560053CFC2 /* Action Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E687EC56274DD09E002552D3 /* SFSymbol Icon */ = {
+		E626DB70274E01A50053CFC2 /* SFSymbol Icon */ = {
 			isa = PBXGroup;
 			children = (
-				E687EC83274DD0E1002552D3 /* SFSymbol_Icon.swift */,
-				E687EC60274DD09F002552D3 /* Assets.xcassets */,
-				E687EC65274DD09F002552D3 /* Info.plist */,
-				E687EC57274DD09E002552D3 /* AppDelegate.swift */,
-				E687EC59274DD09E002552D3 /* SceneDelegate.swift */,
-				E687EC62274DD09F002552D3 /* LaunchScreen.storyboard */,
-				E687EC5D274DD09E002552D3 /* Main.storyboard */,
-				E687EC85274DD3A7002552D3 /* ViewControllers */,
+				E626DB9E274E05870053CFC2 /* SFSymbol_Icon.swift */,
+				E626DB7F274E01A50053CFC2 /* Info.plist */,
+				E626DB7A274E01A50053CFC2 /* Assets.xcassets */,
+				E626DB71274E01A50053CFC2 /* AppDelegate.swift */,
+				E626DB73274E01A50053CFC2 /* SceneDelegate.swift */,
+				E626DB7C274E01A50053CFC2 /* LaunchScreen.storyboard */,
+				E626DB77274E01A50053CFC2 /* Main.storyboard */,
+				E626DBA0274E05BC0053CFC2 /* ViewControllers */,
 			);
 			path = "SFSymbol Icon";
 			sourceTree = "<group>";
 		};
-		E687EC73274DD0BB002552D3 /* Action Extension */ = {
+		E626DB8D274E02560053CFC2 /* Action Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E687EC7B274DD0BB002552D3 /* Info.plist */,
-				E687EC76274DD0BB002552D3 /* ActionViewController.swift */,
-				E687EC78274DD0BB002552D3 /* MainInterface.storyboard */,
+				E626DB95274E02560053CFC2 /* Info.plist */,
+				E626DB90274E02560053CFC2 /* ActionViewController.swift */,
+				E626DB92274E02560053CFC2 /* MainInterface.storyboard */,
 			);
 			path = "Action Extension";
 			sourceTree = "<group>";
 		};
-		E687EC85274DD3A7002552D3 /* ViewControllers */ = {
+		E626DBA0274E05BC0053CFC2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E687EC86274DD3BB002552D3 /* TabBarController.swift */,
-				E687EC5B274DD09E002552D3 /* SFSymbolIconController.swift */,
+				E626DBA1274E05D00053CFC2 /* TabBarController.swift */,
+				E626DB75274E01A50053CFC2 /* DynamicIconController.swift */,
+				E626DBA3274E05E10053CFC2 /* UIViewController_AppStore.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -135,32 +139,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E687EC53274DD09E002552D3 /* SFSymbol Icon */ = {
+		E626DB6D274E01A50053CFC2 /* SFSymbol Icon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E687EC68274DD09F002552D3 /* Build configuration list for PBXNativeTarget "SFSymbol Icon" */;
+			buildConfigurationList = E626DB82274E01A50053CFC2 /* Build configuration list for PBXNativeTarget "SFSymbol Icon" */;
 			buildPhases = (
-				E687EC50274DD09E002552D3 /* Sources */,
-				E687EC51274DD09E002552D3 /* Frameworks */,
-				E687EC52274DD09E002552D3 /* Resources */,
-				E687EC82274DD0BB002552D3 /* Embed App Extensions */,
+				E626DB6A274E01A50053CFC2 /* Sources */,
+				E626DB6B274E01A50053CFC2 /* Frameworks */,
+				E626DB6C274E01A50053CFC2 /* Resources */,
+				E626DB9C274E02560053CFC2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E687EC7D274DD0BB002552D3 /* PBXTargetDependency */,
+				E626DB97274E02560053CFC2 /* PBXTargetDependency */,
 			);
 			name = "SFSymbol Icon";
 			productName = "SFSymbol Icon";
-			productReference = E687EC54274DD09E002552D3 /* SFSymbol Icon.app */;
+			productReference = E626DB6E274E01A50053CFC2 /* SFSymbol Icon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E687EC6E274DD0BB002552D3 /* Action Extension */ = {
+		E626DB88274E02560053CFC2 /* Action Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E687EC7F274DD0BB002552D3 /* Build configuration list for PBXNativeTarget "Action Extension" */;
+			buildConfigurationList = E626DB99274E02560053CFC2 /* Build configuration list for PBXNativeTarget "Action Extension" */;
 			buildPhases = (
-				E687EC6B274DD0BB002552D3 /* Sources */,
-				E687EC6C274DD0BB002552D3 /* Frameworks */,
-				E687EC6D274DD0BB002552D3 /* Resources */,
+				E626DB85274E02560053CFC2 /* Sources */,
+				E626DB86274E02560053CFC2 /* Frameworks */,
+				E626DB87274E02560053CFC2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -168,28 +172,28 @@
 			);
 			name = "Action Extension";
 			productName = "Action Extension";
-			productReference = E687EC6F274DD0BB002552D3 /* Action Extension.appex */;
+			productReference = E626DB89274E02560053CFC2 /* Action Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E687EC4C274DD09E002552D3 /* Project object */ = {
+		E626DB66274E01A50053CFC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					E687EC53274DD09E002552D3 = {
+					E626DB6D274E01A50053CFC2 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					E687EC6E274DD0BB002552D3 = {
+					E626DB88274E02560053CFC2 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = E687EC4F274DD09E002552D3 /* Build configuration list for PBXProject "SFSymbol Icon" */;
+			buildConfigurationList = E626DB69274E01A50053CFC2 /* Build configuration list for PBXProject "SFSymbol Icon" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,91 +201,93 @@
 				en,
 				Base,
 			);
-			mainGroup = E687EC4B274DD09E002552D3;
-			productRefGroup = E687EC55274DD09E002552D3 /* Products */;
+			mainGroup = E626DB65274E01A50053CFC2;
+			productRefGroup = E626DB6F274E01A50053CFC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E687EC53274DD09E002552D3 /* SFSymbol Icon */,
-				E687EC6E274DD0BB002552D3 /* Action Extension */,
+				E626DB6D274E01A50053CFC2 /* SFSymbol Icon */,
+				E626DB88274E02560053CFC2 /* Action Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E687EC52274DD09E002552D3 /* Resources */ = {
+		E626DB6C274E01A50053CFC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E687EC64274DD09F002552D3 /* LaunchScreen.storyboard in Resources */,
-				E687EC61274DD09F002552D3 /* Assets.xcassets in Resources */,
-				E687EC5F274DD09E002552D3 /* Main.storyboard in Resources */,
+				E626DB7E274E01A50053CFC2 /* LaunchScreen.storyboard in Resources */,
+				E626DB7B274E01A50053CFC2 /* Assets.xcassets in Resources */,
+				E626DB79274E01A50053CFC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E687EC6D274DD0BB002552D3 /* Resources */ = {
+		E626DB87274E02560053CFC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E626DB61274DDB1C0053CFC2 /* Assets.xcassets in Resources */,
-				E687EC7A274DD0BB002552D3 /* MainInterface.storyboard in Resources */,
+				E626DB9D274E02E80053CFC2 /* Assets.xcassets in Resources */,
+				E626DB94274E02560053CFC2 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E687EC50274DD09E002552D3 /* Sources */ = {
+		E626DB6A274E01A50053CFC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E687EC5C274DD09E002552D3 /* SFSymbolIconController.swift in Sources */,
-				E687EC84274DD0E1002552D3 /* SFSymbol_Icon.swift in Sources */,
-				E687EC58274DD09E002552D3 /* AppDelegate.swift in Sources */,
-				E687EC87274DD3BB002552D3 /* TabBarController.swift in Sources */,
-				E687EC5A274DD09E002552D3 /* SceneDelegate.swift in Sources */,
+				E626DBA4274E05E10053CFC2 /* UIViewController_AppStore.swift in Sources */,
+				E626DB76274E01A50053CFC2 /* DynamicIconController.swift in Sources */,
+				E626DB9F274E05870053CFC2 /* SFSymbol_Icon.swift in Sources */,
+				E626DB72274E01A50053CFC2 /* AppDelegate.swift in Sources */,
+				E626DBA2274E05D00053CFC2 /* TabBarController.swift in Sources */,
+				E626DB74274E01A50053CFC2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E687EC6B274DD0BB002552D3 /* Sources */ = {
+		E626DB85274E02560053CFC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E687EC77274DD0BB002552D3 /* ActionViewController.swift in Sources */,
+				E626DBA5274E05EE0053CFC2 /* UIViewController_AppStore.swift in Sources */,
+				E626DB91274E02560053CFC2 /* ActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E687EC7D274DD0BB002552D3 /* PBXTargetDependency */ = {
+		E626DB97274E02560053CFC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E687EC6E274DD0BB002552D3 /* Action Extension */;
-			targetProxy = E687EC7C274DD0BB002552D3 /* PBXContainerItemProxy */;
+			target = E626DB88274E02560053CFC2 /* Action Extension */;
+			targetProxy = E626DB96274E02560053CFC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E687EC5D274DD09E002552D3 /* Main.storyboard */ = {
+		E626DB77274E01A50053CFC2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E687EC5E274DD09E002552D3 /* Base */,
+				E626DB78274E01A50053CFC2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E687EC62274DD09F002552D3 /* LaunchScreen.storyboard */ = {
+		E626DB7C274E01A50053CFC2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E687EC63274DD09F002552D3 /* Base */,
+				E626DB7D274E01A50053CFC2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		E687EC78274DD0BB002552D3 /* MainInterface.storyboard */ = {
+		E626DB92274E02560053CFC2 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E687EC79274DD0BB002552D3 /* Base */,
+				E626DB93274E02560053CFC2 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -289,7 +295,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E687EC66274DD09F002552D3 /* Debug */ = {
+		E626DB80274E01A50053CFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		E687EC67274DD09F002552D3 /* Release */ = {
+		E626DB81274E01A50053CFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,7 +411,7 @@
 			};
 			name = Release;
 		};
-		E687EC69274DD09F002552D3 /* Debug */ = {
+		E626DB83274E01A50053CFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -419,6 +425,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,7 +441,7 @@
 			};
 			name = Debug;
 		};
-		E687EC6A274DD09F002552D3 /* Release */ = {
+		E626DB84274E01A50053CFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -448,6 +455,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,7 +471,7 @@
 			};
 			name = Release;
 		};
-		E687EC80274DD0BB002552D3 /* Debug */ = {
+		E626DB9A274E02560053CFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -488,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		E687EC81274DD0BB002552D3 /* Release */ = {
+		E626DB9B274E02560053CFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -516,34 +524,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E687EC4F274DD09E002552D3 /* Build configuration list for PBXProject "SFSymbol Icon" */ = {
+		E626DB69274E01A50053CFC2 /* Build configuration list for PBXProject "SFSymbol Icon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E687EC66274DD09F002552D3 /* Debug */,
-				E687EC67274DD09F002552D3 /* Release */,
+				E626DB80274E01A50053CFC2 /* Debug */,
+				E626DB81274E01A50053CFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E687EC68274DD09F002552D3 /* Build configuration list for PBXNativeTarget "SFSymbol Icon" */ = {
+		E626DB82274E01A50053CFC2 /* Build configuration list for PBXNativeTarget "SFSymbol Icon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E687EC69274DD09F002552D3 /* Debug */,
-				E687EC6A274DD09F002552D3 /* Release */,
+				E626DB83274E01A50053CFC2 /* Debug */,
+				E626DB84274E01A50053CFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E687EC7F274DD0BB002552D3 /* Build configuration list for PBXNativeTarget "Action Extension" */ = {
+		E626DB99274E02560053CFC2 /* Build configuration list for PBXNativeTarget "Action Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E687EC80274DD0BB002552D3 /* Debug */,
-				E687EC81274DD0BB002552D3 /* Release */,
+				E626DB9A274E02560053CFC2 /* Debug */,
+				E626DB9B274E02560053CFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E687EC4C274DD09E002552D3 /* Project object */;
+	rootObject = E626DB66274E01A50053CFC2 /* Project object */;
 }
