@@ -8,7 +8,7 @@ SFSymbol Icon Template produces a pixel perfect 32pt icon, which can be used for
 - Quick Action (UIApplicationShortcutIcon);
 - TabBar (UITabBarItem).
 
-While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt and might be displayed in a wrong scale.
+While any custom SF Symbol is supported by iOS 15, without special "Guides", icon size is limited to 24pt and might be drawn 
 
 
 
@@ -19,7 +19,7 @@ While any custom SF Symbol is supported by iOS 15, without special "Guides", ico
 - Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
 
 
-## How to use Template:
+### How to use Template:
 1. Open template in Sketch;
 2. Replace "Icon" with your icon;
 3. Export icon in SVG format.
@@ -40,7 +40,7 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Ac
 
 
 
-### Setup: Quick Action Shortcut
+## Setup: Quick Action Shortcut
 A) Dynamically:
 ```
 UIApplicationShortcutItem(type: Action.dynamicIcon.rawValue,
@@ -56,7 +56,7 @@ File link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/InfoPlist/Qu
 <img width="716" alt="QuickAction_InfoPlist" src="https://user-images.githubusercontent.com/7535389/143162523-45a6a850-dbe0-44f8-a8f6-eed35ea1a939.png">
 
 
-### Setup: TabBar Icon
+## Setup: TabBar Icon
 A) Set icon in Storyboard;
 
 B) Set image property of tabBarItem:
