@@ -1,12 +1,6 @@
 # SFSymbol Icon Template
 
-SF Symbol Icon Template produces a special SFSymbol file
-
-SF Symbol Action Icon Template is a Sketch Template for setting iOS Action Extension icon, UIApplicationShortcutIcon and UITabBarItem icon.
-
-Template produces 32pt SF Symbol image, which is displayed 1:1
-
-
+While SF Symbols are supported by iOS, this is a special template which produces 32pt 1:1 pixel perfect SF 
 
 Supports:
 * iOS Action Extension
