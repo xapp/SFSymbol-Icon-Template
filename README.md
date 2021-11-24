@@ -2,13 +2,13 @@
 
 ![SFSymbol-Icon](https://user-images.githubusercontent.com/7535389/143172026-72f7de0a-5713-4887-b099-5ef141e3351a.png)
 
-SFSymbol Icon Template produces a 32pt icon, which can be used for: 
+SFSymbol Icon Template produces an icon, which can be used for: 
 
 - iOS Action Extension (iOS 15 only);
 - Quick Action Shortcut;
 - TabBar.
 
-While any custom SF Symbol is supported by iOS 15, this template contains special "Guides", which make icon draw at 1:1 pixel perfect 32pt. 
+While any custom SF Symbol is supported by iOS 15, this template contains special "Guides", which draw a pixel perfect 32pt icon.
 
 
 
