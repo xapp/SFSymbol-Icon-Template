@@ -19,7 +19,7 @@ While iOS 15 allows to use any custom SF Symbols, this template produces a perfe
 - Sketch File: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/Sketch/SFSymbol-Icon.sketch
 - Sketch Workspace Link: https://www.sketch.com/s/0806fd05-6f85-4ade-bb4a-d4171dbf6893
 - SVG Link: https://github.com/xapp/SFSymbol-Icon-Template/blob/main/SVG/symbol.icon.svg
-- Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\_(ツ)_/¯.
+- Figma: is not supported. Template requires fully transparent element to hold 32pt size, Figma removes it during export ¯\\_(ツ)_/¯.
 
 
 ### If you like this Template
