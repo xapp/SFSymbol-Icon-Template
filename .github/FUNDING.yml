@@ -1,4 +1,6 @@
 # These are supported funding model platforms
 
-custom: ['https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8', 'https://xapp.website']
-patreon: xapp
+custom: [
+'https://apps.apple.com/app/apple-store/id1533525753?pt=119131575&ct=SFSymbol-Icon-Github-Sponsor&mt=8', 
+'https://xapp.website',
+'https://github.com/xapp-dev']
